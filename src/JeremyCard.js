@@ -27,7 +27,7 @@ export default function JeremyCard() {
             Jeremy Lee
           </Typography>
           <Typography>
-            Class of 2024, Statistics/Math. DOE for T4SG. I draw squares for fun.
+            Class of 2024, Statistics/Math. DOE for T4SG. I draw squares for fun. Pretty cool dude :
           </Typography>
         </CardContent>
       </Card>
