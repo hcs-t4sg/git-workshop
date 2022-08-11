@@ -9,6 +9,7 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import './App.css';
 import MatthewCard from './MatthewCard';
+import JeremyCard from './JeremyCard'
 
 // Place card imports here!
 
@@ -73,6 +74,7 @@ function App() {
             <Grid container spacing={4}>
               {/* Insert cards here! */}
               <MatthewCard></MatthewCard>
+              <JeremyCard></JeremyCard>
             </Grid>
           </Container>
         </main>
