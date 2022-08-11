@@ -9,6 +9,7 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import './App.css';
 import MatthewCard from './MatthewCard';
+import MatthewCardTwo from './MatthewCardTwo';
 
 // Place card imports here!
 
@@ -57,7 +58,7 @@ function App() {
                 Welcome to the T4SG Git workshop!
               </Typography>
               <Typography variant="body1" align="center" color="text.secondary" paragraph>
-                We love tech and social impact! My name is aMtthew. I am on main.
+                We love tech and social impact! MY name is MAtthew. I am on matthew branch.
               </Typography>
               <Stack
                 sx={{ pt: 4 }}
@@ -73,6 +74,7 @@ function App() {
             <Grid container spacing={4}>
               {/* Insert cards here! */}
               <MatthewCard></MatthewCard>
+              <MatthewCardTwo></MatthewCardTwo>
             </Grid>
           </Container>
         </main>
