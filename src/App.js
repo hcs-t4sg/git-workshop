@@ -57,7 +57,7 @@ function App() {
                 Welcome to the T4SG Git workshop!
               </Typography>
               <Typography variant="body1" align="center" color="text.secondary" paragraph>
-                Future Description. Change one. Change agin.asdfasdfasdf
+                Future Description.
               </Typography>
               <Stack
                 sx={{ pt: 4 }}
@@ -72,7 +72,6 @@ function App() {
             {/* End hero unit */}
             <Grid container spacing={4}>
               {/* Insert cards here! */}
-              <MatthewCard></MatthewCard>
             </Grid>
           </Container>
         </main>
