@@ -57,7 +57,7 @@ function App() {
                 Welcome to the T4SG Git workshop!
               </Typography>
               <Typography variant="body1" align="center" color="text.secondary" paragraph>
-                Future Description.
+                Written by Matthew!
               </Typography>
               <Stack
                 sx={{ pt: 4 }}
