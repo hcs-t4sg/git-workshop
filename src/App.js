@@ -10,6 +10,7 @@ import Typography from '@mui/material/Typography';
 import './App.css';
 
 // Place card imports here!
+import CardTemplate from './CardTemplate';
 
 const theme = createTheme({
   palette: {
@@ -71,6 +72,7 @@ function App() {
             {/* End hero unit */}
             <Grid container spacing={4}>
               {/* Insert cards here! */}
+              <CardTemplate />
             </Grid>
           </Container>
         </main>

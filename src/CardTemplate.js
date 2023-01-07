@@ -4,7 +4,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 
-export default function cardTemplate() {
+export default function CardTemplate() {
   return (
     <Grid item xs={12} sm={6} md={4}>
       <Card
@@ -22,9 +22,11 @@ export default function cardTemplate() {
         <CardContent sx={{ flexGrow: 1 }}>
           <Typography gutterBottom variant="h5" component="h2">
             {/* Name here */}
+            Template Card
           </Typography>
           <Typography>
             {/* Harvard intro here */}
+            Template Intro
           </Typography>
         </CardContent>
       </Card>
