@@ -11,6 +11,7 @@ import './App.css';
 
 // Place card imports here!
 import CardTemplate from './CardTemplate';
+import VictoriaCardTemplate from "./VictoriaCardTemplate"
 
 const theme = createTheme({
   palette: {
@@ -71,8 +72,8 @@ function App() {
           <Container sx={{ py: 8 }} maxWidth="md">
             {/* End hero unit */}
             <Grid container spacing={4}>
-              {/* Insert cards here! */}
               <CardTemplate />
+              <VictoriaCardTemplate />
             </Grid>
           </Container>
         </main>
