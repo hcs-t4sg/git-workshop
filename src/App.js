@@ -58,7 +58,7 @@ function App() {
                 Welcome to the T4SG Git workshop!
               </Typography>
               <Typography variant="body1" align="center" color="text.secondary" paragraph>
-                Present Description.
+                ARTEMAS MERGE CONFLICT.
               </Typography>
               <Stack
                 sx={{ pt: 4 }}
