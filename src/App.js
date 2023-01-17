@@ -8,6 +8,7 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import './App.css';
+import ChrisCardTemplate from './ChrisCardTemplate';
 
 // Place card imports here!
 import CardTemplate from './CardTemplate';
@@ -71,8 +72,8 @@ function App() {
           <Container sx={{ py: 8 }} maxWidth="md">
             {/* End hero unit */}
             <Grid container spacing={4}>
-              {/* Insert cards here! */}
               <CardTemplate />
+              <ChrisCardTemplate />
             </Grid>
           </Container>
         </main>
