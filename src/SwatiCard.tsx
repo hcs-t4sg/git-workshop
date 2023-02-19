@@ -24,9 +24,11 @@ export default function CardTemplate() {
         <CardContent sx={{ flexGrow: 1 }}>
           <Typography gutterBottom variant="h5" component="h2">
             {/* Name here */}
+            Swati Goel
           </Typography>
           <Typography>
             {/* Harvard intro here */}
+            Winthrop 2025, CS/Physics
           </Typography>
         </CardContent>
       </Card>
