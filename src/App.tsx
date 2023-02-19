@@ -8,6 +8,7 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import './App.css';
+import AndrewCardTemplate from './AndrewCardTemplate';
 
 // Place card imports here!
 import CardTemplate from './CardTemplate';
@@ -73,6 +74,7 @@ function App() {
             <Grid container spacing={4}>
               {/* Insert cards here! */}
               <CardTemplate />
+              <AndrewCardTemplate/>
             </Grid>
           </Container>
         </main>
@@ -87,6 +89,7 @@ function App() {
             Created by the T4SG SWE Summer Committee 2022
           </Typography>
         </Box>
+
         {/* End footer */}
       </ThemeProvider>
     </div>
