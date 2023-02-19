@@ -28,7 +28,7 @@ export default function JoseCard() {
           </Typography>
           <Typography>
             {/* Harvard intro here */}
-            Intro for jose. 
+            Intro for Jose. Has very cool hair.
           </Typography>
         </CardContent>
       </Card>
