@@ -11,6 +11,7 @@ import './App.css';
 
 // Place card imports here!
 import CardTemplate from './CardTemplate';
+import JoseCard from './JoseCard'
 
 const theme = createTheme({
   palette: {
@@ -73,6 +74,7 @@ function App() {
             <Grid container spacing={4}>
               {/* Insert cards here! */}
               <CardTemplate />
+              <JoseCard/>
             </Grid>
           </Container>
         </main>
