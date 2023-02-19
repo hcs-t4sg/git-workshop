@@ -28,7 +28,8 @@ export default function DrakeCard() {
           </Typography>
           <Typography>
             {/* Harvard intro here */}
-            First-year in Canaday studying computer science. Eats hummus straight up.
+            First-year in Canaday studying computer science. Eats hummus straight up. 
+            (questionable!)
           </Typography>
         </CardContent>
       </Card>
