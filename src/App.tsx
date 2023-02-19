@@ -10,6 +10,7 @@ import Typography from '@mui/material/Typography';
 import './App.css';
 
 // Place card imports here!
+import SwatiCard from './SwatiCard';
 import CardTemplate from './CardTemplate';
 
 const theme = createTheme({
@@ -73,6 +74,7 @@ function App() {
             <Grid container spacing={4}>
               {/* Insert cards here! */}
               <CardTemplate />
+              <SwatiCard/>
             </Grid>
           </Container>
         </main>
