@@ -28,7 +28,7 @@ export default function BenCardTemplate() {
           </Typography>
           <Typography>
             {/* Harvard intro here */}
-            Freshman in CanaSLAY <3
+            Freshman in CanaSLAY 
           </Typography>
         </CardContent>
       </Card>
