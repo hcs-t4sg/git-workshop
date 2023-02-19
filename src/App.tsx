@@ -67,7 +67,7 @@ function App() {
                 color="text.secondary"
                 paragraph
               >
-                Welcome to the git workshop! Test
+                Welcome to the git workshop! My name is MAtthew!
               </Typography>
               <Stack
                 sx={{ pt: 4 }}
