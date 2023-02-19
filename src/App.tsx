@@ -80,7 +80,6 @@ function App() {
           <Container sx={{ py: 8 }} maxWidth="md">
             {/* End hero unit */}
             <Grid container spacing={4}>
-              {/* Insert cards here! */}
               <CardTemplate />
               <MarkCard />
             </Grid>
