@@ -11,6 +11,7 @@ import './App.css';
 
 // Place card imports here!
 import CardTemplate from './CardTemplate';
+import MayaCard from './MayaCard';
 
 const theme = createTheme({
   palette: {
@@ -73,7 +74,8 @@ function App() {
             <Grid container spacing={4}>
               {/* Insert cards here! */}
               <CardTemplate />
-            </Grid>
+              <MayaCard />
+              </Grid>
           </Container>
         </main>
         {/* Footer */}
