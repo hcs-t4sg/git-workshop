@@ -8,6 +8,7 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import './App.css';
+import BenCardTemplate from './Ben-Card';
 
 // Place card imports here!
 import CardTemplate from './CardTemplate';
@@ -73,6 +74,7 @@ function App() {
             <Grid container spacing={4}>
               {/* Insert cards here! */}
               <CardTemplate />
+              <BenCardTemplate />
             </Grid>
           </Container>
         </main>
