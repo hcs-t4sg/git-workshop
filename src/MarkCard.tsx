@@ -25,6 +25,7 @@ export default function MarkCard() {
           </Typography>
           <Typography>
             Junior in Eliot House studying Math and Computer Science.
+            Software Engineer on the Climate Neutral team.
           </Typography>
         </CardContent>
       </Card>
