@@ -8,6 +8,8 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import './App.css';
+import './BraveCardTemplate'
+import BraveCardTemplate from './BraveCardTemplate';
 
 // Place card imports here!
 import CardTemplate from './CardTemplate';
@@ -73,6 +75,7 @@ function App() {
             <Grid container spacing={4}>
               {/* Insert cards here! */}
               <CardTemplate />
+              <BraveCardTemplate/>
             </Grid>
           </Container>
         </main>
