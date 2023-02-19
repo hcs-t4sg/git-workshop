@@ -1,25 +1,25 @@
-import AppBar from '@mui/material/AppBar';
-import Box from '@mui/material/Box';
-import Container from '@mui/material/Container';
-import CssBaseline from '@mui/material/CssBaseline';
-import Grid from '@mui/material/Grid';
-import Stack from '@mui/material/Stack';
-import { createTheme, ThemeProvider } from '@mui/material/styles';
-import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
-import './App.css';
+import AppBar from "@mui/material/AppBar";
+import Box from "@mui/material/Box";
+import Container from "@mui/material/Container";
+import CssBaseline from "@mui/material/CssBaseline";
+import Grid from "@mui/material/Grid";
+import Stack from "@mui/material/Stack";
+import { createTheme, ThemeProvider } from "@mui/material/styles";
+import Toolbar from "@mui/material/Toolbar";
+import Typography from "@mui/material/Typography";
+import "./App.css";
 
 // Place card imports here!
-import CardTemplate from './CardTemplate';
+import CardTemplate from "./CardTemplate";
+import MarkCard from "./MarkCard";
 
 const theme = createTheme({
   palette: {
     primary: {
       main: "#0BC793",
-      contrastText: "#fff"
-    }
-  }
-
+      contrastText: "#fff",
+    },
+  },
 });
 
 function App() {
@@ -38,7 +38,7 @@ function App() {
           {/* Hero unit */}
           <Box
             sx={{
-              bgcolor: 'background.paper',
+              bgcolor: "background.paper",
               pt: 8,
               pb: 6,
             }}
@@ -53,10 +53,20 @@ function App() {
               >
                 T4SGit
               </Typography>
-              <Typography variant="h5" align="center" color="text.secondary" paragraph>
+              <Typography
+                variant="h5"
+                align="center"
+                color="text.secondary"
+                paragraph
+              >
                 Welcome to the T4SG Git workshop!
               </Typography>
-              <Typography variant="body1" align="center" color="text.secondary" paragraph>
+              <Typography
+                variant="body1"
+                align="center"
+                color="text.secondary"
+                paragraph
+              >
                 Future Description.
               </Typography>
               <Stack
@@ -64,8 +74,7 @@ function App() {
                 direction="row"
                 spacing={2}
                 justifyContent="center"
-              >
-              </Stack>
+              ></Stack>
             </Container>
           </Box>
           <Container sx={{ py: 8 }} maxWidth="md">
@@ -73,11 +82,12 @@ function App() {
             <Grid container spacing={4}>
               {/* Insert cards here! */}
               <CardTemplate />
+              <MarkCard />
             </Grid>
           </Container>
         </main>
         {/* Footer */}
-        <Box sx={{ bgcolor: 'background.paper', p: 6 }} component="footer">
+        <Box sx={{ bgcolor: "background.paper", p: 6 }} component="footer">
           <Typography
             variant="subtitle1"
             align="center"
