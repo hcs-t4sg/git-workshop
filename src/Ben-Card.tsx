@@ -24,11 +24,11 @@ export default function BenCardTemplate() {
         <CardContent sx={{ flexGrow: 1 }}>
           <Typography gutterBottom variant="h5" component="h2">
             {/* Name here */}
-            Ben Langman
+            Ben Langman 
           </Typography>
           <Typography>
             {/* Harvard intro here */}
-            Freshman in Canaday
+            Freshman in CanaSLAY <3
           </Typography>
         </CardContent>
       </Card>
