@@ -28,7 +28,7 @@ export default function MayaCard() {
           </Typography>
           <Typography>
             {/* Harvard intro here */}
-            Template Intro
+            Hi! I am Maya Dummett. I like eating apples and oranges and I am a big fan of the number 24.
           </Typography>
         </CardContent>
       </Card>
