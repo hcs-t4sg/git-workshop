@@ -28,7 +28,8 @@ export default function CardTemplate() {
           </Typography>
           <Typography>
             {/* Harvard intro here */}
-            Winthrop 2025, CS/Physics
+            Winthrop 2025, CS/Physics 
+            I have added a change!
           </Typography>
         </CardContent>
       </Card>
